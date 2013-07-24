@@ -1,6 +1,6 @@
 # Leaflet::Zoomfs::Rails
 
-TODO: Write a gem description
+Integrates the [Leaflet ZoomFS] plugin with Rails asset pipeline
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following to your `app/assets/javascripts/application.js`:
+
+    //= require leaflet.zoomfs    
+    
+Examples can be found at [elidupuis]
 
 ## Contributing
 
@@ -27,3 +31,12 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+MIT License, full text of license see [here][License]
+
+*Free Software, Fuck Yeah!*
+
+[License]: https://github.com/kendrikat/leaflet-zoomfs-rails/blob/master/LICENSE.txt "LICENSE"
+[Leaflet ZoomFS]: https://github.com/elidupuis/leaflet.zoomfs
+[elidupuis]: https://github.com/elidupuis/leaflet.zoomfs
